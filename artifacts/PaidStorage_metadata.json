@@ -27,15 +27,56 @@
 				"type": "error"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "allowance",
+				"outputs": [
 					{
-						"internalType": "address",
-						"name": "token",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "SafeERC20FailedOperation",
-				"type": "error"
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkMyCLQAllowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkMyCLQBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -117,13 +158,6 @@
 			}
 		],
 		"devdoc": {
-			"errors": {
-				"SafeERC20FailedOperation(address)": [
-					{
-						"details": "An operation with an ERC-20 token failed."
-					}
-				]
-			},
 			"kind": "dev",
 			"methods": {},
 			"version": 1
@@ -199,11 +233,11 @@
 			]
 		},
 		"contracts/storage_clq.sol": {
-			"keccak256": "0xfb2f74c41a9491d0e5555c44a13f76c6fba8bb30ed0c4570405a2a367b89a003",
+			"keccak256": "0xb28a34335ff928beab8343dd82f10cd203961bc5230c418a95706eb8ebca88d7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7f8b468bba3eb6a7a7270cc954739a8ac8aeb99b6a8a997629c8d271998f4d81",
-				"dweb:/ipfs/QmTfH254ncrvKj66JbcypVi2iiA5Udrgqh41VZiycRNdir"
+				"bzz-raw://62a18947f6b774a0bbec2bfbd3f27eb288ec7fb87cc159a8cbd8331efafdfa16",
+				"dweb:/ipfs/QmeEFoUsjU7FhKUbSndRdj8ds5jFxipSMosTSbEVDSGSkE"
 			]
 		}
 	},
